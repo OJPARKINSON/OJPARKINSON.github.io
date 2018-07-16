@@ -59,7 +59,7 @@ div a {
 }
 div a:hover {
     transition: 0.7s;
-    color: black;
+    color: #444;
 }
 h1 {
     color: white;
