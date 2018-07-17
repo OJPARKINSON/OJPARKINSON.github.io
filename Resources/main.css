@@ -42,6 +42,12 @@ body{
   display: block;
   text-decoration: none;
   color: white;
+  margin: 15px auto;
+  font-size: 2em;
+}
+.navbar a:hover {
+    transition: 0.8s;
+    color: #444;
 }
 .heightspace {
     min-height: 25px;
@@ -51,15 +57,16 @@ header img {
     min-width: 280px;
     margin: 10px auto;
 }
-div a {
+div h2 a {
     display: block;
-    font-size: 2em;
-    color: white;
+    color: black;
     margin: 15px auto;
 }
-div a:hover {
+div h2 a:hover {
     transition: 0.8s;
-    color: #444;
+    color: #333;
+    display: block;
+    text-decoration: none;
 }
 h1 {
     color: white;
