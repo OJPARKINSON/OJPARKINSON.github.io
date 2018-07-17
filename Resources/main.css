@@ -58,7 +58,7 @@ div a {
     margin: 15px auto;
 }
 div a:hover {
-    transition: 0.7s;
+    transition: 0.8s;
     color: #444;
 }
 h1 {
@@ -66,24 +66,27 @@ h1 {
 }
 
 /* links */
+@media screen =< 800px {
+
+}
 
 .link_logo {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 190px;
+    max-width: 190px;
     margin: 0 auto;
     margin-left: 10px;
 }
 .textbody {
-    height: 200px;
-    width: 200px;
+    height: 190px;
+    width: 190px;
 }
 .link_text {
-    font-size: 1.6em;
+    font-size: 1.5em;
     text-align: center;
     margin: 76px 0px;
 }
 .insta_text {
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin: 75px 0px;
 }
 
