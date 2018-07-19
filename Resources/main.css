@@ -1,4 +1,4 @@
-* {box-sizing: border-box;}
+* {box-sizing: border-box;font-family: Futura, "Trebuchet MS", Arial, sans-serif;}
 .onecol{width: 8.33%; float: left;}
 .twocol{width: 16.66%; float: left;}
 .threecol{width: 24.99%; float: left;}
@@ -13,24 +13,38 @@
 .twelvecol{width: 100%; float: left;}
 h1,h2 {
     font-size: 2.5em;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     margin:  20px auto;
     text-align: center;
 }
 h3 {
     font-size: 1.5em;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     margin:  20px auto;
     text-align: center;
     color: white;
 }
+h3 a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin:  20px auto;
+    text-align: center;
+    color: white;
+}
+h3 a:hover {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin:  20px auto;
+    text-align: center;
+    transition: 0.8s;
+    color: #444;
+}
+
 p {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     text-align: left;
     color: white;
 }
 body{
-    font-family: 'Raleway', sans-serif;
     margin: 0;
 }
 #continer {
@@ -44,7 +58,6 @@ body{
     background-color: #4A90E2;
     margin: 0 auto;
     height: 500px;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     overflow: hidden;
     text-decoration: none;
     display: block;
@@ -148,9 +161,7 @@ h1 {
 /***********/
 
 /* form */
-form {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-}
+
 label {
     color: white;
 }
