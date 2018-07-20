@@ -86,8 +86,10 @@ div h2 a {
     display: block;
     color: black;
     margin: 15px auto;
+    display: block;
+    text-decoration: none;
 }
-div h2 a:hover {
+ h2 a:hover {
     transition: 0.8s;
     color: #333;
     display: block;
@@ -110,13 +112,13 @@ h1 {
     width: 190px;
 }
 .link_text {
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: center;
-    margin: 76px 0px;
+    margin: 65px 0px;
 }
 .insta_text {
     font-size: 1.25em;
-    margin: 75px 0px;
+    margin: 65px 0px;
     margin-left: 5px;
 }
 
