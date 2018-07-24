@@ -117,41 +117,13 @@ h1 {
     margin: 65px 0px;
     margin-left: 5px;
 }
-@media only screen and (max-width: 900px) {
-    h1,h2 {
-        font-size: 1.2em !important;
-    }
-    h3,h4,a{
-        font-size: 0.8em !important;
-    }
-    .link_logo {
-        height: 50px;
-        width: 50px;
-        margin: 0 auto;
-        margin-left: 5px;
-    }
-    .textbody {
-        height: 50px;
-        width: 50px;
-    }
-    .link_text {
-        font-size: 0.1em;
-        text-align: center;
-        margin: 5px 0px;
-    }
-    .insta_text {
-        font-size: 0.3em;
-        margin: 5px 0px;
-    }
-}
-
 @media only screen and (max-width: 1240px) {
     h1,h2,h3,{
         font-size: 1.5em ;
     }
     .link_logo {
         height: 150px;
-        width: 150px;
+        width: 145px;
         margin: 0 auto;
         margin-left: 5px;
     }
@@ -170,6 +142,38 @@ h1 {
     }
 
 }
+@media only screen and (max-width: 900px) {
+    h1,h2 {
+        font-size: 1em ;
+    }
+    h3, a{
+        font-size: 0.8em !important;
+    }
+    .link_logo {
+        height: 50%;
+        width: 35%;
+        margin: 0 auto;
+        margin-left: 5px;
+    }
+    .textbody {
+        height: 50%;
+        width: 35%;
+    }
+    .link_text {
+        font-size: 1.5vw;
+        text-align: center;
+        margin: 1.2vh 0px;
+    }
+    .insta_text {
+        font-size: 1.4vw;
+        margin: 1.2vh 1px;
+    }
+     .hangText{
+        width: 45% !important;
+    }
+}
+
+
 /* links end */
 
 /***********/
