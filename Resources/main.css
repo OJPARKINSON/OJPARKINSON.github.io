@@ -149,24 +149,27 @@ h1 {
     h3, a{
         font-size: 0.8em !important;
     }
+    .linkBody{
+       width: 33% !important;
+   }
     .link_logo {
-        height: 50%;
-        width: 35%;
+        height: 55%;
+        width: 40%;
         margin: 0 auto;
         margin-left: 5px;
     }
     .textbody {
-        height: 50%;
-        width: 35%;
+        height: 55%;
+        width: 40%;
     }
     .link_text {
-        font-size: 1.5vw;
+        font-size: 2.1vw;
         text-align: center;
-        margin: 1.2vh 0px;
+        margin: 35% 0px;
     }
     .insta_text {
-        font-size: 1.4vw;
-        margin: 1.2vh 1px;
+        font-size: 2.1vw;
+        margin: 33% 1px;
     }
      .hangText{
         width: 45% !important;
