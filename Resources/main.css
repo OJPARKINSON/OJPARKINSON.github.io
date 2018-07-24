@@ -165,14 +165,17 @@ h1 {
     .link_text {
         font-size: 2.1vw;
         text-align: center;
-        margin: 35% 0px;
+        margin: 20% 0px;
     }
     .insta_text {
         font-size: 2.1vw;
-        margin: 33% 1px;
+        margin: 20% 1px;
     }
      .hangText{
         width: 45% !important;
+    }
+    .linkText {
+        font-size: 0.7em !important;
     }
 }
 
