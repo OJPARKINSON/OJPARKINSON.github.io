@@ -48,14 +48,14 @@ h2 a {
     margin-left: 20px;
     font-size: 0.7em;
     text-align: center;
-    transition: 0.8s;
+    transition: 0.7s;
     color: white ;
 }
 h2 a:hover {
     display: block;
     text-decoration: none;
     margin-left: 20px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-align: center;
     transition: 0.8s;
     color: #444;
