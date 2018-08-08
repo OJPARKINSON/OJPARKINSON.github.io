@@ -82,7 +82,7 @@ body{
     text-decoration: none;
     display: block;
 }
-.navbar a {
+#navbarLinks {
   float: left;
   display: block;
   text-decoration: none;
@@ -113,8 +113,9 @@ div h4 a {
     display: block;
     text-decoration: none;
 }
-h1 {
-    color: white;
+h1 a {
+    text-decoration: none !important;
+    color: white !important;
 }
 
 /* links */
@@ -203,11 +204,6 @@ h1 {
         font-size: 0.7em !important;
     }
 }
-
-
-/* links end */
-
-/***********/
 
 .red {
     background-color: #b14c5a;;
