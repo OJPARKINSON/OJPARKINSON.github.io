@@ -14,6 +14,7 @@
 h1,h2 {
     font-size: 2em;
     text-align: center;
+    margin: 5px;
 }
 .nameSpacer {
     margin:  20px auto;
@@ -52,15 +53,17 @@ h2 a {
     color: white ;
 }
 h2 a:hover {
-    display: block;
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 0.7em;
-    text-align: center;
     transition: 0.8s;
     color: #444;
 }
-
+h1 a {
+    text-decoration: none !important;
+    color: white;
+}
+h1 a:hover {
+    transition: 0.8s;
+    color: #444;
+}
 p {
     text-align: left;
     color: white;
@@ -90,7 +93,11 @@ body{
   margin: 15px auto;
   font-size: 2em;
 }
-.navbar a:hover {
+#navbarLinks:hover {
+    float: left;
+    display: block;
+    text-decoration: none;
+    margin: 15px auto;
     transition: 0.8s;
     color: #444;
 }
@@ -107,27 +114,19 @@ div h4 a {
     display: block;
     text-decoration: none;
 }
- h4 a:hover {
+h4 a:hover {
     transition: 0.8s;
     color: #333;
     display: block;
     text-decoration: none;
 }
-h1 a {
-    text-decoration: none !important;
-    color: white !important;
-}
 
-/* links */
 
 .link_logo {
     max-height: 190px;
     max-width: 190px;
     margin: 0 auto;
     margin-left: 10px;
-}
-.textbody {
-
 }
 .link_text {
     font-size: 1.3em;
