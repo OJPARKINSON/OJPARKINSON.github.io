@@ -14,10 +14,10 @@
 h1,h2 {
     font-size: 2em;
     text-align: center;
-    margin: 5px;
 }
 .nameSpacer {
-    margin:  20px auto;
+    margin-bottom: 20px;
+    max-width: 100%;
 }
 
 h3 {
@@ -57,11 +57,11 @@ h2 a:hover {
     transition: 0.8s;
     color: #444;
 }
-h1 a {
+#nav-title {
     text-decoration: none !important;
     color: white;
 }
-h1 a:hover {
+#nav-title :hover {
     transition: 0.8s;
     color: #444;
 }
@@ -80,7 +80,6 @@ body{
     width: 100%;
     margin: 0 auto;
 }
-
 .navbar {
     background-color: #4A90E2;
     margin: 0 auto;
@@ -123,8 +122,6 @@ h4 a:hover {
     display: block;
     text-decoration: none;
 }
-
-
 .link_logo {
     max-height: 190px;
     max-width: 190px;
@@ -198,15 +195,12 @@ h4 a:hover {
         font-size: 2.1vw;
         margin: 20% 1px;
     }
-     .hangText{
-        width: 45% !important;
-    }
     .linkText {
         font-size: 0.7em !important;
     }
 }
 
 .red {background-color: #b14c5a;;}
-.white {color: white;}
+.white {color: white; margin: 10px;}
 .grey {color: grey;}
 .left {float: left;}
