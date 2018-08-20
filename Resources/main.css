@@ -15,11 +15,6 @@ h1,h2 {
     font-size: 2em;
     text-align: center;
 }
-.nameSpacer {
-    margin-bottom: 20px;
-    max-width: 100%;
-}
-
 h3 {
     font-size: 1.5em;
     margin:  20px auto;
@@ -57,6 +52,30 @@ h2 a:hover {
     transition: 0.8s;
     color: #444;
 }
+p {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
+div h4 a {
+    display: block;
+    color: #444444;
+    margin: 15px auto;
+    display: block;
+    text-decoration: none;
+}
+h4 a:hover {
+    transition: 0.8s;
+    color: #333;
+    display: block;
+    text-decoration: none;
+}
 #nav-title {
     text-decoration: none !important;
     color: white;
@@ -64,15 +83,6 @@ h2 a:hover {
 #nav-title :hover {
     transition: 0.8s;
     color: #444;
-}
-p {
-    text-align: left;
-    color: white;
-    text-decoration: none;
-}
-a {text-decoration: none;}
-body{
-    margin: 0;
 }
 #continer {
     max-width: 1440px;
@@ -109,18 +119,12 @@ body{
 header img {
     margin: 10px auto;
 }
-div h4 a {
-    display: block;
-    color: #444444;
-    margin: 15px auto;
-    display: block;
-    text-decoration: none;
+#portfolio-container {
+    background-color: #b14c5a;
 }
-h4 a:hover {
-    transition: 0.8s;
-    color: #333;
-    display: block;
-    text-decoration: none;
+.nameSpacer {
+    margin-bottom: 20px;
+    max-width: 100%;
 }
 .link_logo {
     max-height: 190px;
@@ -200,7 +204,6 @@ h4 a:hover {
     }
 }
 
-.red {background-color: #b14c5a;;}
 .white {color: white; margin: 10px;}
 .grey {color: grey;}
 .left {float: left;}
