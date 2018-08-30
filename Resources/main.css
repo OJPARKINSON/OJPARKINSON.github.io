@@ -49,7 +49,7 @@ h2 a {
     float: left;
 }
 h2 a:hover {
-    transition: 0.8s;
+    transition: 0.6s;
     color: #444;
 }
 p {
@@ -203,7 +203,6 @@ header img {
         font-size: 0.7em !important;
     }
 }
-
 .white {color: white; margin: 10px;}
 .grey {color: grey;}
 .left {float: left;}
