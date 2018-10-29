@@ -1,4 +1,5 @@
 * {box-sizing: border-box; font-family: Futura, "Trebuchet MS", Arial, sans-serif;}
+
 .onecol{width: 8.33%; float: left;}
 .twocol{width: 16.66%; float: left;}
 .threecol{width: 24.99%; float: left;}
@@ -11,6 +12,7 @@
 .tencol{width: 83.33%; float: left;}
 .elevencol{width: 91.66%; float: left;}
 .twelvecol{width: 100%; float: left;}
+
 h1,h2 {
     font-size: 2em;
     text-align: center;
@@ -85,7 +87,7 @@ h4 a:hover {
     color: #444;
 }
 #continer {
-    max-width: 1440px;
+    max-width: 1280px;
     min-height: 800px;
     width: 100%;
     margin: 0 auto;
@@ -129,7 +131,6 @@ header div img {
 .link_logo {
     margin: 0 auto;
     margin-left: 10px;
-    width: 100%;
 }
 .link_text {
     font-size: 1.3em;
@@ -203,3 +204,4 @@ header div img {
 .white {color: white; margin: 10px;}
 .grey {color: grey;}
 .left {float: left;}
+img{-webkit-user-drag: none;} /*stops img ghost dragging */
