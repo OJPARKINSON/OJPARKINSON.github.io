@@ -127,10 +127,9 @@ header div img {
     max-width: 100%;
 }
 .link_logo {
-    max-height: 190px;
-    max-width: 190px;
     margin: 0 auto;
     margin-left: 10px;
+    width: 100%;
 }
 .link_text {
     font-size: 1.3em;
@@ -148,7 +147,6 @@ header div img {
     }
     .link_logo {
         height: 150px;
-        width: 145px;
         margin: 0 auto;
         margin-left: 5px;
     }
@@ -182,7 +180,6 @@ header div img {
    }
     .link_logo {
         height: 55%;
-        width: 40%;
         margin: 0 auto;
         margin-left: 5px;
     }
