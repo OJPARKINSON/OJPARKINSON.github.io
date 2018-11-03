@@ -13,15 +13,18 @@
 .elevencol{width: 91.66%; float: left;}
 .twelvecol{width: 100%; float: left;}
 
-h1,h2 {
+h1 {
     font-size: 2em;
     text-align: center;
+}
+h2 {
+    font-size: 2em;
 }
 h3 {
     font-size: 1.5em;
     margin:  20px auto;
     text-align: center;
-    color: white;
+    color: #444;
 }
 h3 a {
     display: block;
@@ -38,7 +41,6 @@ h3 a:hover {
     margin:  20px auto;
     text-align: center;
     transition: 0.8s;
-    color: #444;
 }
 h2 a {
     display: block;
@@ -49,10 +51,6 @@ h2 a {
     transition: 0.7s;
     color: white ;
     float: left;
-}
-h2 a:hover {
-    transition: 0.6s;
-    color: #444;
 }
 p {
     text-align: left;
@@ -122,7 +120,7 @@ header div img {
     margin: 10px auto;
 }
 #portfolio-container {
-    background-color: #b14c5a;
+    background-color: #444;
 }
 .nameSpacer {
     margin-bottom: 20px;
@@ -132,16 +130,6 @@ header div img {
     margin: 0 auto;
     margin-left: 10px;
 }
-.link_text {
-    font-size: 1.3em;
-    text-align: center;
-    margin: 65px 0px;
-}
-.insta_text {
-    font-size: 1.25em;
-    margin: 65px 0px;
-    margin-left: 5px;
-}
 @media only screen and (max-width: 1240px) {
     h1,h2,h3,{
         font-size: 1.5em ;
@@ -150,19 +138,6 @@ header div img {
         height: 150px;
         margin: 0 auto;
         margin-left: 5px;
-    }
-    .textbody {
-        height: 150px;
-        width: 145px;
-    }
-    .link_text {
-        font-size: 1.05em;
-        text-align: center;
-        margin: 45px 0px;
-    }
-    .insta_text {
-        font-size: 1em;
-        margin: 45px 5px;
     }
 }
 @media only screen and (max-width: 900px) {
@@ -183,22 +158,6 @@ header div img {
         height: 55%;
         margin: 0 auto;
         margin-left: 5px;
-    }
-    .textbody {
-        height: 55%;
-        width: 40%;
-    }
-    .link_text {
-        font-size: 2.1vw;
-        text-align: center;
-        margin: 20% 0px;
-    }
-    .insta_text {
-        font-size: 2.1vw;
-        margin: 20% 1px;
-    }
-    .linkText {
-        font-size: 0.7em !important;
     }
 }
 .white {color: white; margin: 10px;}
