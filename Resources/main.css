@@ -19,11 +19,11 @@ h1 {
     color: white;
 }
 h2 {
-    font-size: 2em;
+    font-size: 2.5vw;
     color: #444;
 }
 h3 {
-    font-size: 2em;
+    font-size: 2vw;
     margin:  20px auto;
     text-align: center;
     color: #444;
@@ -42,15 +42,13 @@ h3 a:hover {
     font-size: 1.5em;
     margin:  20px auto;
     text-align: center;
-    transition: 0.8s;
 }
 h2 a {
     display: block;
     text-decoration: none;
     margin-left: 20px;
-    font-size: 0.7em;
+    font-size: 1.5vw;
     text-align: center;
-    transition: 0.7s;
     color: white ;
     float: left;
 }
@@ -58,6 +56,7 @@ p {
     text-align: left;
     color: white;
     text-decoration: none;
+    font-size: 1.5vw;
 }
 a {
     text-decoration: none;
@@ -73,19 +72,11 @@ div h4 a {
     text-decoration: none;
 }
 h4 a:hover {
-    transition: 0.8s;
     color: #333;
     display: block;
     text-decoration: none;
 }
-#nav-title {
-    text-decoration: none !important;
-    color: white;
-}
-#nav-title :hover {
-    transition: 0.8s;
-    color: #444;
-}
+
 #continer {
     width: 95%;
     margin: 0 auto;
