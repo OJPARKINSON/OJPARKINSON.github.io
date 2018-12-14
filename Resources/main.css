@@ -31,7 +31,7 @@ h3 {
 h3 a {
     display: block;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     margin:  20px auto;
     text-align: center;
     color: white;
@@ -39,7 +39,7 @@ h3 a {
 h3 a:hover {
     display: block;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     margin:  20px auto;
     text-align: center;
 }
@@ -121,27 +121,7 @@ header div img {
     margin: 0 auto;
     margin-left: 10px;
 }
-@media only screen and (max-width: 1240px) {
-    h1,h2,h3,{
-        font-size: 1.5em ;
-    }
-    .link_logo {
-        height: 150px;
-        margin: 0 auto;
-        margin-left: 5px;
-    }
-}
 @media only screen and (max-width: 900px) {
-    h1,h2 {
-        font-size: 1em;
-        text-align: center;
-    }
-    h3, a{
-        font-size: 0.6em !important;
-    }
-    h2 a{
-        font-size: 0.75em !important;
-    }
     .linkBody{
        width: 33% !important;
    }
