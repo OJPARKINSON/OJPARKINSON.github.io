@@ -1,4 +1,4 @@
-* {box-sizing: border-box; font-family: Futura, "Trebuchet MS", Arial, sans-serif;}
+* {box-sizing: border-box; font-family: 'Nunito', sans-serif;}
 .col-0_5 {width: 4.165%; float: left;}
 .col-1 {width: 8.33%; float: left;}
 .col-2 {width: 16.66%; float: left;}
@@ -15,18 +15,18 @@
 
 h1 {
     font-size: 2.8vw;
-
+    margin: 0;
     color: #444;
 }
 h2 {
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: white;
 }
 h3 {
-    font-size: 2vw;
+    font-size: 4vw;
     margin:  20px auto;
     text-align: center;
-    color: white;
+    color: #444;
 }
 h3 a {
     display: block;
@@ -184,19 +184,12 @@ img{-webkit-user-drag: none;} /*stops img ghost dragging */
     margin: 0 5px 0 5px;
     height: 5vh;
 }
-.ultimate-typed-main {
-    font-family: inherit!important;
-    font-weight: inherit!important;
-    font-size: inherit!important;
-    font-style: inherit!important;
-    line-height: inherit!important;
-}
-h5 {
+
+ h5  {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
+    font-size: 3vw;
     vertical-align: baseline;
 }
 .vc_custom_1521712015956 {
@@ -210,10 +203,7 @@ h5 {
     animation: ult-blink .7s infinite;
     color: #444;
 }
-#uvc-type-wrap-1022 {
-    font-size: 30px;
-}
-#uvc-type-wrap-1022 .mycustfancy {
-    font-size: 30px;
-    line-height: 30px;
+
+.homePageHalf {
+    height: 25vh;
 }
