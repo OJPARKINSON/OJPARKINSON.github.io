@@ -20,13 +20,13 @@ h1 {
 }
 h2 {
     font-size: 2.5vw;
-    color: #444;
+    color: white;
 }
 h3 {
     font-size: 2vw;
     margin:  20px auto;
     text-align: center;
-    color: #444;
+    color: white;
 }
 h3 a {
     display: block;
@@ -78,11 +78,11 @@ h4 a:hover {
 }
 
 #continer {
-    width: 95%;
+
     margin: 0 auto;
 }
 .navbar {
-
+    height: 10vw;
     margin: 0 auto;
     overflow: hidden;
     text-decoration: none;
@@ -110,7 +110,7 @@ h4 a:hover {
 header div img {
     margin: 10px auto;
 }
-#portfolio-container {
+#darkbackground{
     background-color: #444;
 }
 .nameSpacer {
@@ -178,4 +178,42 @@ img{-webkit-user-drag: none;} /*stops img ghost dragging */
     right: 1.5vw;
     font-size: 7vw;
     z-index: 2;
+}
+.ultimate-typed-main {
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    height: 5vh;
+}
+.ultimate-typed-main {
+    font-family: inherit!important;
+    font-weight: inherit!important;
+    font-size: inherit!important;
+    font-style: inherit!important;
+    line-height: inherit!important;
+}
+h5 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.vc_custom_1521712015956 {
+    margin-top: -5px !important;
+    padding-top: 0px !important;
+}
+.typed-cursor {
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: ult-blink .7s infinite;
+    animation: ult-blink .7s infinite;
+    color: #444;
+}
+#uvc-type-wrap-1022 {
+    font-size: 30px;
+}
+#uvc-type-wrap-1022 .mycustfancy {
+    font-size: 30px;
+    line-height: 30px;
 }
