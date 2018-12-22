@@ -1,5 +1,5 @@
 * {box-sizing: border-box; font-family: Futura, "Trebuchet MS", Arial, sans-serif;}
-
+.col-0_5 {width: 4.165%; float: left;}
 .col-1 {width: 8.33%; float: left;}
 .col-2 {width: 16.66%; float: left;}
 .col-3 {width: 25%; float: left;}
@@ -15,8 +15,8 @@
 
 h1 {
     font-size: 2.8vw;
-    text-align: center;
-    color: white;
+
+    color: #444;
 }
 h2 {
     font-size: 2.5vw;
@@ -82,7 +82,7 @@ h4 a:hover {
     margin: 0 auto;
 }
 .navbar {
-    background-color: #1e73be;
+
     margin: 0 auto;
     overflow: hidden;
     text-decoration: none;
@@ -135,47 +135,11 @@ header div img {
 .grey {color: grey;}
 .left {float: left;}
 img{-webkit-user-drag: none;} /*stops img ghost dragging */
-#home {
-    display: none;
-}
-#preload {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 1001;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-#preload svg {
-    width: 200px;
-    height: 200px;
-}
-#preload svg rect {
-    fill: #1e73be;
-}
-.SVG1 {
-    width:4px; 
-    height:7px;
-    fill:#333;
-}
-.SVG2 {
-    width:4px; 
-    height:7px; 
-    fill:#333; 
-}
-.SVG3 {
-    width:4px; 
-    height:7px; 
-    fill:#333; 
-}
+
 .menu {
     margin-top: 3%;
     font-size: 4vw;
-    color: white;
+    color: #444; 
 }
 .overlay {
     height: 100%;
