@@ -205,3 +205,46 @@ img{-webkit-user-drag: none;} /*stops img ghost dragging */
 .homePageHalf {
     height: 25vh;
 }
+#left-bar {
+    left: 0;
+}
+.side-bar {
+    /*display: none;*/
+    background: #fff;
+    width: 60px;
+    padding: 0 24px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 40;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #909090;
+    font-weight: 400;
+}
+.side-setup {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    width: 300px;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 150px;
+    text-align: center;
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+.side-setup a {
+    color: #151515;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
