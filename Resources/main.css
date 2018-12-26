@@ -143,6 +143,7 @@ img{-webkit-user-drag: none;} /*stops img ghost dragging */
     margin-top: 2%;
     font-size: 4vw;
     color: inherit; 
+    cursor: pointer;
 }
 .overlay {
     height: 100%;
