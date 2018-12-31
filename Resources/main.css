@@ -93,7 +93,7 @@ body{
     color: #444;
 }
 .heightspace {
-    min-height: 25px;
+    min-height: 2vw;
 }
 #customSpace {
     min-height: 1vh;
