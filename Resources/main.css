@@ -60,14 +60,11 @@ body{
 #navbar {
     height: 10vw;
     margin: 0 auto;
-    overflow: hidden;
     text-decoration: none;
     display: block;
     background-color: transparent;
-    display: flex;
     align-items: center;
     width: 100%;
-
     color: #444;
 }
 .onScroll {
@@ -95,7 +92,7 @@ body{
 #customSpace {
     min-height: 1vh;
 }
-#darkbackground{
+.darkbackground{
     background-color: #444;
 }
 .link_logo {
