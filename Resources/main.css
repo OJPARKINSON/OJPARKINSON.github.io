@@ -66,9 +66,6 @@ body{
     background-color: transparent;
     display: flex;
     align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
 
     color: #444;
@@ -93,7 +90,7 @@ body{
     color: #444;
 }
 .heightspace {
-    min-height: 25px;
+    min-height: 2vw;
 }
 #customSpace {
     min-height: 1vh;
