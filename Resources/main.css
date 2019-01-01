@@ -99,7 +99,7 @@ body{
     min-height: 2vw;
 }
 #customSpace {
-    min-height: 1vw;
+    min-height: 3vw;
 }
 #darkbackground{
     background-color: #444;
@@ -213,7 +213,7 @@ img{-webkit-user-drag: none;} /*stops img ghost dragging */
     color: #444;
 }
 .homePageHalf {
-    height: 20vw;
+    height: 10vw;
 }
 #left-Bar {
     left: 0;
@@ -283,7 +283,7 @@ aside div a {
     -webkit-tap-highlight-color: transparent;
 }
 #top {
-    margin-top: 20vw;
+    margin-top: 8vw;
 }
 .linkHeightspace {
     width: 33.33%;
