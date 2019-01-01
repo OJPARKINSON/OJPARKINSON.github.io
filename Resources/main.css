@@ -296,3 +296,13 @@ aside div a {
 #header-title {
     color: #444;
 }
+input {
+    margin: 2.8vw auto 2.3vw  auto;
+}
+.textArea {
+    margin-top: 1vw;
+}
+textarea {
+    margin: 2.5vw auto 1vw  auto;
+
+}
