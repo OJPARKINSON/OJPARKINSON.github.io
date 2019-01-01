@@ -8,13 +8,16 @@ function closeNav() {
 
 
 window.onscroll = function() {myFunction()};
-var navbar = document.getElementById("navbar");
+var title = document.getElementById("header-title");
+var menu = document.getElementById("menu");
 var customSpace = document.getElementById("customSpace");
 var custom = customSpace.offsetTop;
 function myFunction() {
     if (window.pageYOffset >= custom) {
-        navbar.classList.add("onScroll")
+        title.classList.add("onScroll")
+        menu.classList.add("onScroll")
     } else {
-        navbar.classList.remove("onScroll");
+        title.classList.remove("onScroll");
+        menu.classList.remove("onScroll");
     }
 }
