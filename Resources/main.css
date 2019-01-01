@@ -213,7 +213,7 @@ img{-webkit-user-drag: none;} /*stops img ghost dragging */
     color: #444;
 }
 .homePageHalf {
-    height: 11vw;
+    height: 20vh;
 }
 #left-Bar {
     left: 0;
