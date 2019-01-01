@@ -282,3 +282,6 @@ aside div a {
 .pageLink {
     text-decoration: underline;
 }
+#defaultCanvas0 {
+    max-width: 100%;
+}
