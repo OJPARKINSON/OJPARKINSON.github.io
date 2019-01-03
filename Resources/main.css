@@ -13,11 +13,57 @@
 .col-11 {width: 91.66%; float: left;}
 .col-12 {width: 100%; float: left;}
 
+@media only screen and (max-width: 900px) {
+    .linkBody{
+    width: 50% !important;
+    }
+    .link_logo {
+        height: 55%;
+        margin: 0 auto;
+        margin-left: 5px;
+    }
+    .ajustable {
+        width: 10%;
+    }
+    h2, h2 a, .white {
+        margin: 0 !important;
+        font-size: 3.5vw;
+        text-align: left;
+    }
+    .hangText {
+        width: 75% !important;
+    }
+    p {
+        font-size: 3.7vw;
+    }
+    aside {
+        display: none !important;
+    }
+    .linkHeightspace {
+        width: 25% !important;
+    }
+    h1 {
+        font-size: 4vw !important;
+        position: static !important;
+        margin-left: 4.5vw !important;  
+        margin-top: 1vw !important;
+    }
+    #menu {
+        font-size: 6.5vw !important; 
+        cursor: pointer !important;
+        position: absolute !important; 
+        right: 4.5vw !important;
+    }
+    span {
+        font-size: 3.8vw !important;
+    }
+}
 h1 {
     font-size: 2.9vw;
     margin: 0;
     color: inherit;
     position: fixed; 
+    top: 1vw;
     left: 4.5vw;
 }
 h2 {
@@ -26,7 +72,7 @@ h2 {
 }
 h3 {
     font-size: 4vw;
-    margin:  20px auto;
+    margin:  2vw auto;
     text-align: center;
     color: #444;
 }
@@ -55,45 +101,8 @@ a {
 body{
     margin: 0;
 }
-#continer {
-
-    margin: 0 auto;
-}
-#navbar {
-    height: 10vw;
-    margin: 0 auto;
-    overflow: hidden;
-    text-decoration: none;
-    display: block;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-
-    color: #444;
-}
 .onScroll {
     color: white !important;
-    z-index: 2;
-}
-#navbarLinks {
-  float: left;
-  display: block;
-  text-decoration: none;
-  color: white;
-  margin: 20px auto;
-  font-size: 2.5vw;
-}
-#navbarLinks:hover {
-    float: left;
-    display: block;
-    text-decoration: none;
-    margin: 15px auto;
-    transition: 0.8s;
-    color: #444;
 }
 .heightspace {
     min-height: 2vw;
@@ -108,40 +117,7 @@ body{
     margin: 0 auto;
     width: 89%;
 }
-@media only screen and (max-width: 900px) {
-    .linkBody{
-       width: 50% !important;
-   }
-    .link_logo {
-        height: 55%;
-        margin: 0 auto;
-        margin-left: 5px;
-    }
-    .ajustable {
-        width: 10%;
-    }
-    h2, h2 a, .white {
-        margin: 0 !important;
-        font-size: 3.5vw;
-        text-align: left;
-    }
-    .hangText {
-        width: 75% !important;
-    }
-    p {
-        font-size: 3.7vw;
-    }
-    aside {
-        display: none !important;
-    }
-    .linkHeightspace {
-        width: 25% !important;
-    }
-}
-.white {color: white; margin: 10px;}
-
 img{-webkit-user-drag: none;} /*stops img ghost dragging */
-
 #menu {
     color: #444;
     margin-top: 1.5%;
@@ -191,17 +167,16 @@ img{-webkit-user-drag: none;} /*stops img ghost dragging */
 .ultimate-typed-main {
     display: inline-block;
     margin: 0 5px 0 5px;
-    height: 5vw;
-}
 
- h5  {
+}
+h5 {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 3vw;
     vertical-align: baseline;
 }
-.vc_custom_1521712015956 {
+.marginFix {
     margin-top: -5px !important;
     padding-top: 0px !important;
 }
@@ -283,7 +258,7 @@ aside div a {
     -webkit-tap-highlight-color: transparent;
 }
 #top {
-    margin-top: 8vw;
+    margin-top: 10vw;
 }
 .linkHeightspace {
     width: 33.33%;
