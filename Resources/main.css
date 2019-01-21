@@ -1,4 +1,4 @@
-* {box-sizing: border-box; font-family: 'Nunito', sans-serif;}
+*{box-sizing: border-box; font-family: Nunito;} /* font-family: Monoton; font-weight: 10;  Helvetica */
 .col-0_5 {width: 4.165%; float: left;}
 .col-1 {width: 8.33%; float: left;}
 .col-2 {width: 16.66%; float: left;}
