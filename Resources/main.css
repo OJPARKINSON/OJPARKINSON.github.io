@@ -94,7 +94,7 @@ h2 a:hover, a:hover {
 }
 p {
     text-align: left;
-    color: white;
+    color: white !important;
     text-decoration: none;
     font-size: 2vw;
 }
@@ -217,7 +217,7 @@ h5 {
 .left-Side-setup {
     display: inline-block;
     position: absolute;
-    top: 32vw;
+    top: 30vw;
     left: 2vw;
     font-size: 1.5vw;
     width: 5vw;
@@ -258,7 +258,7 @@ h5 {
 aside div a {
     color: #151515;
     outline: 0;
-    font-size: 1vw;
+    font-size: 0.8vw;
     -webkit-tap-highlight-color: transparent;
 }
 #top {
@@ -275,20 +275,10 @@ aside div a {
 #header-title {
     color: #444;
 }
-@import url(../../dist/github-calendar-responsive.css);
-@import url(https://unpkg.com/bag.css@1.0.12/dist/bag.fixed.css);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/github.min.css);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/octicons/3.3.0/octicons.css);
-@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
-
 .bag > h1 {
     text-align: center;
     font-weight: 100;
     font-size: 25px;
-}
-
-.monospace {
-    font-family: 'Cutive Mono', monospace !important;
 }
 
 
@@ -311,9 +301,11 @@ pre {
     margin-bottom: 10px;
 }
 
-p {
-    color: white;
+.linkPara {
+    color: white !important;
 }
+.link {color: white;}
+
 .contrib-footer, .contrib-column, .wday {
     display: none !important;
 }
@@ -323,4 +315,7 @@ p {
 .js-calendar-graph-svg {
     width: 75%;
     filter: grayscale(50%) !important;
+}
+.hereLink:hover {
+    text-decoration: underline;
 }
