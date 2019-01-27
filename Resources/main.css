@@ -314,3 +314,13 @@ pre {
 p {
     color: white;
 }
+.contrib-footer, .contrib-column, .wday {
+    display: none !important;
+}
+.calendar {
+    border: none !important;
+}
+.js-calendar-graph-svg {
+    width: 75%;
+    filter: grayscale(50%) !important;
+}
