@@ -88,9 +88,17 @@ h2 a {
     color: white ;
     float: left;
 }
-h2 a:hover, a:hover { 
+#menu {
+    color: #444;
+    margin-top: 1.5%;
+    font-size: 4vw; 
+    cursor: pointer;
+    position: fixed; 
+    right: 4.5vw;
+}
+h2 a:hover, a:hover, #menu:hover { 
     color: #DD362B;
-    transition: 0.5;
+    transition: 0.8;
 }
 p {
     text-align: left;
@@ -121,14 +129,7 @@ body{
     width: 89%;
 }
 img{-webkit-user-drag: none;} /*stops img ghost dragging */
-#menu {
-    color: #444;
-    margin-top: 1.5%;
-    font-size: 4vw; 
-    cursor: pointer;
-    position: fixed; 
-    right: 4.5vw;
-}
+
 .overlay {
     height: 100%;
     display: none;
@@ -314,7 +315,7 @@ pre {
 }
 .js-calendar-graph-svg {
     width: 75%;
-    filter: grayscale(50%) !important;
+    filter: grayscale(30%) !important;
 }
 .hereLink:hover {
     text-decoration: underline;
