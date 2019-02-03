@@ -21,3 +21,4 @@ function myFunction() {
         menu.classList.remove("onScroll");
     }
 }
+

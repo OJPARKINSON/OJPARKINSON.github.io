@@ -153,6 +153,87 @@
         <div class="col-12 heightspace"></div>
         
     </main>
-    <script src="Resources/script.min.js"></script>
+<!--
+        <section id="wrap">
+            <section id="main">
+            <div class="nowplaying"></div>
+            <div class="keys">
+                <div data-key="65" class="key" data-note="C"></div>
+                <div data-key="83" class="key" data-note="D"></div>
+                <div data-key="68" class="key" data-note="E"></div>
+                <div data-key="70" class="key" data-note="F"></div>
+                <div data-key="71" class="key" data-note="G"></div>
+                <div data-key="72" class="key" data-note="A"></div>
+                <div data-key="74" class="key" data-note="B"></div>
+                <div data-key="75" class="key" data-note="C"></div>
+                <div data-key="76" class="key" data-note="D"></div>
+                <div data-key="186" class="key" data-note="E"></div>
+            </div>
+
+             b   d   e   g   e   a   e   b   d   e   g   e   a   e   d   e   b   d   e   g   e   a   e   b   d   e   g   e   g   a   b  
+            
+            <audio data-key="65" src="Resources/sounds/040.wav"></audio>
+            <audio data-key="83" src="Resources/sounds/042.wav"></audio>
+            <audio data-key="68" src="Resources/sounds/044.wav"></audio>
+            <audio data-key="70" src="Resources/sounds/045.wav"></audio>
+            <audio data-key="71" src="Resources/sounds/047.wav"></audio>
+            <audio data-key="72" src="Resources/sounds/049.wav"></audio>
+            <audio data-key="74" src="Resources/sounds/051.wav"></audio>
+            <audio data-key="75" src="Resources/sounds/052.wav"></audio>
+            <audio data-key="76" src="Resources/sounds/054.wav"></audio>
+            <audio data-key="186" src="Resources/sounds/056.wav"></audio>
+            </section>
+        </section>
+   
+        </video>
+    </video>
+    <script>
+    var keyCode;
+    const keys = document.querySelectorAll(".key"),
+    note = document.querySelector(".nowplaying"),
+    hints = document.querySelectorAll(".hints");
+    var tunes = ["74", "83", "68", "71",  "68", "72",  "68", "74",  "83",  "68", "71",  "68", "72",  "68", "83",  "68", "74",  "83",  "68", "71", "68", "72",  "68", "74",  "83",  "68", "71",  "68", "71",  "72",  "74"];
+    var wonderfulFunction = function(i) {
+    var s = document.getElementById("div1"); //you could pass this element as a parameter as well
+    i = i || 0;
+    if(i < tunes.length) {
+        keyCode = tunes[i];
+        i++;
+        //create a pause of 2 seconds       
+    
+    const audio = document.querySelector(`audio[data-key="${keyCode}"]`),
+        key = document.querySelector(`.key[data-key="${keyCode}"]`);
+
+    if (!key) return;
+
+    const keyNote = key.getAttribute("data-note");
+
+    key.classList.add("playing");
+    note.innerHTML = keyNote;
+    audio.currentTime = 0;
+    audio.play();
+
+    setTimeout(function() { wonderfulFunction(i) }, 300);  
+    }
+    }
+
+    function removeTransition(e) {
+    if (e.propertyName !== "transform") return;
+    this.classList.remove("playing");
+    }
+
+    function hintsOn(e, index) {
+    e.setAttribute("style", "transition-delay:" + index * 50 + "ms");
+    }
+    wonderfulFunction();
+    hints.forEach(hintsOn);
+
+    keys.forEach(key => key.addEventListener("transitionend", removeTransition));
+
+
+</script>
+-->
+<script src="Resources/script.min.js"></script>
+
 </body>
 </html>

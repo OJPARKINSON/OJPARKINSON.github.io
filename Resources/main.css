@@ -88,6 +88,10 @@ h2 a {
     color: white ;
     float: left;
 }
+.onScroll {
+    color: white !important;
+}
+
 #menu {
     color: #444;
     margin-top: 1.5%;
@@ -112,9 +116,7 @@ a {
 body{
     margin: 0;
 }
-.onScroll {
-    color: white !important;
-}
+
 .heightspace {
     min-height: 2vw;
 }
