@@ -2,7 +2,7 @@ jQuery(function($){
     $(document).ready(function(){
         if( typeof jQuery("#typed-3277604075c1e350ee183f").typed == "function"){
             $("#typed-3277604075c1e350ee183f").typed({
-                strings: ["Age: 17","Born in: York","Passion: Software Development","Education: Selby College","Favourite sport: Football"],
+                strings: ["Age: 18","Born in: York","Passion: Software Development","Education: Selby College","Favourite sport: Football"],
                 typeSpeed: 100,
                 backSpeed: 10,
                 startDelay: 1000,
